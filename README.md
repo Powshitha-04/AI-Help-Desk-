@@ -1,10 +1,10 @@
-# AI Help Desk - Ticket Classifier Backend
+# AI Help Desk 
 
 An intelligent IT support ticket classification system powered by FastAPI and Google's Gemini AI (`gemini-2.5-flash`). This application automatically analyzes, categorizes, prioritizes, assigns, and suggests troubleshooting solutions for incoming IT support tickets.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated Classification**: Automatically tags tickets into one of the key categories: `Network`, `Hardware`, `Security`, or `Software`.
 - **Smart Prioritization**: Dynamically determines urgency levels: `Low`, `Medium`, `High`, or `Critical`.
@@ -14,7 +14,7 @@ An intelligent IT support ticket classification system powered by FastAPI and Go
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Framework**: [FastAPI](https://fastapi.tiangolo.com/) (Python)
 - **AI Engine**: [Google Gemini 2.5 Flash](https://ai.google.dev/) via the modern `google-genai` SDK
@@ -24,7 +24,7 @@ An intelligent IT support ticket classification system powered by FastAPI and Go
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Here are screenshots showing the FastAPI application status, interactive Swagger documentation, and ticket analysis API usage:
 
@@ -42,7 +42,7 @@ Here are screenshots showing the FastAPI application status, interactive Swagger
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Prerequisites
 Ensure you have **Python 3.10+** installed on your system.
@@ -79,7 +79,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ---
 
-## 🖥️ Running the Application
+##  Running the Application
 
 Start the FastAPI local development server using `uvicorn`:
 
@@ -93,7 +93,7 @@ Interactive documentation (Swagger UI): `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ### 1. Health Check
 * **Endpoint**: `GET /`
@@ -127,5 +127,4 @@ Interactive documentation (Swagger UI): `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to open a pull request.
+
